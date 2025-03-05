@@ -1,0 +1,53 @@
+.login-container {
+    width: 450px;
+    height: auto;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+    background-color: aliceblue;
+    max-width: 90%;
+  }
+  
+  form div {
+    margin-bottom: 10px;
+    height: 80px;
+  }
+  
+  label {
+    display: block;
+    font-weight: bold;
+  }
+  
+  input {
+    width: 94%;
+    padding: 8px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    width: 100%;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: darkblue;
+  }
+  body {
+    background-color: rgb(239, 242, 243); 
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 85vh; 
+    display: flex;
+    justify-content: center; 
+    align-items: center;
+  }
